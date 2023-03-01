@@ -1,0 +1,15 @@
+{
+  "name": "lage-tasks-min-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lage build",
+    "test": "lage test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lage": "^2.1.0"
+  }
+}

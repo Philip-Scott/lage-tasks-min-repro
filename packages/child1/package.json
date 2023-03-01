@@ -1,0 +1,11 @@
+{
+  "name": "child1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo build child1"
+  },
+  "author": "",
+  "license": "ISC"
+}
