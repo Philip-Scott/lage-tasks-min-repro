@@ -7,6 +7,9 @@
     "build": "echo build child2",
     "test": "echo test child2"
   },
+  "dependencies": {
+    "parent": "1.0.0"
+  },
   "author": "",
   "license": "ISC"
 }

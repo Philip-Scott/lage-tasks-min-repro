@@ -2,10 +2,16 @@
   "name": "lage-tasks-min-repro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "lage build",
-    "test": "lage test"
+    "build": "lage build --no-cache",
+    "test": "lage test --no-cache",
+    "test:expected": "lage test --to child2 --no-cache",
+    "build-test": "lage build test --no-cache"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   },
   "author": "",
   "license": "ISC",

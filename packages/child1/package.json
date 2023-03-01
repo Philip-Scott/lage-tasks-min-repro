@@ -6,6 +6,9 @@
   "scripts": {
     "build": "echo build child1"
   },
+  "dependencies": {
+    "parent": "1.0.0"
+  },
   "author": "",
   "license": "ISC"
 }
